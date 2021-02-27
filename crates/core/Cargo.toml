@@ -1,0 +1,9 @@
+[package]
+name = "questionnaire-core"
+version = "0.1.0"
+authors = ["SirWindfield <SirWindfield@users.noreply.github.com>"]
+edition = "2018"
+publish = false
+
+[dependencies]
+rustyline = "7.1.0"

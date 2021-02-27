@@ -1,9 +1,11 @@
-[package]
-name = "questionnaire"
-description = "A library for creating a series of interactive questions for data gathering"
-version = "0.0.1"
-license = "Apache-2.0 OR MIT"
-authors = ["SirWindfield <SirWindfield@users.noreply.github.com>"]
-edition = "2018"
-
-[dependencies]
+[workspace]
+members = [
+    "crates/checkbox",
+    "crates/confirm",
+    "crates/core",
+    "crates/input",
+    "crates/list",
+    "crates/password",
+    "crates/questionnaire",
+    "crates/select"
+]
